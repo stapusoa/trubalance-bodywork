@@ -94,9 +94,9 @@ export function Footer({ onSectionChange }: FooterProps) {
               <li className="pt-4">
                 <Button
                   onClick={() => onSectionChange('booking')}
-                  className="bg-linear-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white px-6 py-2 rounded-full transition-all duration-300 hover:scale-105"
+                  className="bg-[#e7faf6] cursor-pointer text-[#2e4272]"
                 >
-                  Book Session
+                  Book Now
                 </Button>
               </li>
             </ul>

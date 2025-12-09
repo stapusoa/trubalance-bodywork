@@ -99,8 +99,20 @@ export default function Info() {
                 </div>
 
                 <div className="mt-6">
-                  <Button onClick={() => openDirections("https://share.google/PU4H1IOu4aYjYUIWu")}>
+                  <Button className="cursor-pointer font-semibold" onClick={() => openDirections("https://share.google/PU4H1IOu4aYjYUIWu")}>
                     Get Directions
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.381.256a.875.875 0 0 1 1.238 0l6.125 6.125a.875.875 0 0 1 0 1.238l-6.125 6.125a.875.875 0 1 1-1.238-1.238l4.632-4.631H.875a.875.875 0 1 1 0-1.75h10.138L6.38 1.494a.875.875 0 0 1 0-1.238"
+                        fill="#fff"
+                      />
+                    </svg>
                   </Button>
                 </div>
               </div>
