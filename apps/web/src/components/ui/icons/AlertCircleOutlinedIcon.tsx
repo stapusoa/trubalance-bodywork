@@ -1,0 +1,3 @@
+export const AlertCircleOutlinedIcon = () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12s4.477 10 10 10 10-4.477 10-10m-9.99 3.4a1 1 0 1 1 0 2H12a1 1 0 0 1 0-2zM11 13V7.6a1 1 0 0 1 2 0V13a1 1 0 1 1-2 0m13-1c0 6.627-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0s12 5.373 12 12" fill="#1e1e1e"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></svg>)
+    
