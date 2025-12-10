@@ -44,10 +44,10 @@ export function HomeHero({ onNavigate }: HomeHeroProps) {
       >
         <div className="absolute inset-0 bg-white/90 backdrop-blur-md h-screen md:h-auto rounded-[21px] -mx-4 -my-24 md:-my-8"></div>
         <div className="relative z-40 py-20 md:py-10 px-12">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-header mb-1">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-montserrat font-semibold text-header mb-1">
             Your Wellness Journey
           </h1>
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold text-primary mb-4">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold font-montserrat text-primary mb-4">
             Starts Now
           </h1>
           <p className="text-lg md:text-xl text-default mb-8 max-w-lg mx-auto leading-relaxed tracking-tight">
