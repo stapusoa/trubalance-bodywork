@@ -15,14 +15,14 @@ export function Services({ onNavigate }: { onNavigate: (page: PageType) => void 
         viewport={{ once: true }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-light text-stone-900 mb-6">
+          <div className="text-center mb-16 font-montserrat font-semibold">
+            <h2 className="text-4xl text-stone-900 mb-4">
               Healing{' '}
-              <span className="bg-linear-to-r from-sage-400 to-sage-700 bg-clip-text text-transparent font-medium">
+              <span className="text-primary">
                 Modalities
               </span>
             </h2>
-            <p className="text-xl text-stone-600 max-w-3xl mx-auto">
+            <p className="text-xl text-[#969798] max-w-3xl mx-auto font-helvetica-neue font-normal">
               Each service is designed to support your unique healing journey
             </p>
           </div>

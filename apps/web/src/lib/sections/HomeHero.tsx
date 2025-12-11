@@ -50,7 +50,7 @@ export function HomeHero({ onNavigate }: HomeHeroProps) {
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold font-montserrat text-primary mb-4">
             Starts Now
           </h1>
-          <p className="text-lg md:text-xl text-default mb-8 max-w-lg mx-auto leading-relaxed tracking-tight">
+          <p className="text-lg md:text-xl text-[#969798] mb-8 max-w-lg mx-auto leading-relaxed tracking-tight font-helvetica-neue font-normal">
             Experience transformative healing through compassionate, trauma-informed bodywork and
             energy healing
           </p>

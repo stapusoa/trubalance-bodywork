@@ -12,11 +12,11 @@ export function CTA({ onNavigate }: { onNavigate: (page: PageType) => void }) {
       viewport={{ once: true }}
     >
       <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-light text-gray-900 mb-6">
-          Ready to Begin Your <span className="text-emerald-600 font-medium">Healing Journey?</span>
+        <h2 className="text-4xl font-semibold text-stone-900 mb-6">
+          Ready to Begin Your <span className="text-primary">Healing Journey?</span>
         </h2>
-        <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-          Take the first step towards wellness and transformation. Book your personalized session
+        <p className="text-xl text-[#969798] mb-12 leading-relaxed">
+          Take the first step towards wellness and transformation.<br/>Book your personalized session
           today.
         </p>
 
