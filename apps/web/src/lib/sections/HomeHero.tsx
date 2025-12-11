@@ -1,25 +1,25 @@
-import { useState, useEffect } from "react"
-import type { HomeHeroProps } from "@/lib/types"
-import { motion, useScroll, useTransform } from "framer-motion"
+import { useState, useEffect } from 'react'
+import type { HomeHeroProps } from '@/lib/types'
+import { motion, useScroll, useTransform } from 'framer-motion'
 import { Hero } from '@/lib/blocks/Hero'
-import { HeroGallery } from "@/lib/blocks/HeroGallery"
-import imgFarLeft from "/assets/images/imgHeroGalleryFL.webp"
-import imgFarRight from "/assets/images/imgHeroGalleryFR.webp"
-import imgTopRight from "/assets/images/imgHeroGalleryTR.webp"
-import imgBottomRight from "/assets/images/imgHeroGalleryBR.webp"
-import imgTopLeft from "/assets/images/imgHeroGalleryTL.webp"
-import imgBottomLeft from "/assets/images/imgHeroGalleryBL.webp"
-import imgCenter from "/assets/images/imgHeroGalleryC.webp"
-import { Button } from "@/components/ui/button"
+import { HeroGallery } from '@/lib/blocks/HeroGallery'
+import imgFarLeft from '/assets/images/imgHeroGalleryFL.webp'
+import imgFarRight from '/assets/images/imgHeroGalleryFR.webp'
+import imgTopRight from '/assets/images/imgHeroGalleryTR.webp'
+import imgBottomRight from '/assets/images/imgHeroGalleryBR.webp'
+import imgTopLeft from '/assets/images/imgHeroGalleryTL.webp'
+import imgBottomLeft from '/assets/images/imgHeroGalleryBL.webp'
+import imgCenter from '/assets/images/imgHeroGalleryC.webp'
+import { Button } from '@/components/ui/button'
 
 const galleryImages = [
-  { src: imgFarLeft, type: "image" as const, alt: "Lily Pad" },
-  { src: imgTopLeft, type: "image" as const, alt: "Hand Holding a Leaf" },
-  { src: imgBottomLeft, type: "image" as const, alt: "Oil Drops" },
-  { src: imgCenter, type: "image" as const, alt: "Sunset" },
-  { src: imgTopRight, type: "image" as const, alt: "Plants" },
-  { src: imgBottomRight, type: "image" as const, alt: "Oils" },
-  { src: imgFarRight, type: "image" as const, alt: "Crystals" },
+  { src: imgFarLeft, type: 'image' as const, alt: 'Lily Pad' },
+  { src: imgTopLeft, type: 'image' as const, alt: 'Hand Holding a Leaf' },
+  { src: imgBottomLeft, type: 'image' as const, alt: 'Oil Drops' },
+  { src: imgCenter, type: 'image' as const, alt: 'Sunset' },
+  { src: imgTopRight, type: 'image' as const, alt: 'Plants' },
+  { src: imgBottomRight, type: 'image' as const, alt: 'Oils' },
+  { src: imgFarRight, type: 'image' as const, alt: 'Crystals' },
 ]
 
 export function HomeHero({ onNavigate }: HomeHeroProps) {
@@ -38,23 +38,36 @@ export function HomeHero({ onNavigate }: HomeHeroProps) {
       <HeroGallery images={galleryImages} />
 
       {/* Central content */}
-      <motion.div className="relative z-30 inset-y-0 text-center max-w-3xl mx-auto px-6" style={{ opacity: heroOpacity, y: heroY }}>
+      <motion.div
+        className="relative z-30 inset-y-0 text-center max-w-3xl mx-auto px-6"
+        style={{ opacity: heroOpacity, y: heroY }}
+      >
         <div className="absolute inset-0 bg-white/90 backdrop-blur-md h-screen md:h-auto rounded-[21px] -mx-4 -my-24 md:-my-8"></div>
         <div className="relative z-40 py-20 md:py-10 px-12">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-header mb-1">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-montserrat font-semibold text-header mb-1">
             Your Wellness Journey
           </h1>
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold text-primary mb-4">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold font-montserrat text-primary mb-4">
             Starts Now
           </h1>
-          <p className="text-lg md:text-xl text-default mb-8 max-w-lg mx-auto leading-relaxed tracking-tight">
-            Experience transformative healing through compassionate, trauma-informed bodywork and energy healing
+          <p className="text-lg md:text-xl text-[#969798] mb-8 max-w-lg mx-auto leading-relaxed tracking-tight font-helvetica-neue font-normal">
+            Experience transformative healing through compassionate, trauma-informed bodywork and
+            energy healing
           </p>
-          <Button
-            onClick={() => onNavigate("booking")}
-            className="btn-gradient-primary hover:btn-gradient-primary text-white px-8 py-3.5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
-          >
-            Book Your Session
+          <Button className="cursor-pointer font-semibold w-50 text-center" onClick={() => onNavigate('booking')}>
+            Book Now
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.381.256a.875.875 0 0 1 1.238 0l6.125 6.125a.875.875 0 0 1 0 1.238l-6.125 6.125a.875.875 0 1 1-1.238-1.238l4.632-4.631H.875a.875.875 0 1 1 0-1.75h10.138L6.38 1.494a.875.875 0 0 1 0-1.238"
+                fill="#fff"
+              />
+            </svg>
           </Button>
         </div>
       </motion.div>
@@ -77,7 +90,6 @@ export function HomeHero({ onNavigate }: HomeHeroProps) {
           </motion.div>
         </div>
       </motion.div>
-      
     </Hero>
   )
 }
