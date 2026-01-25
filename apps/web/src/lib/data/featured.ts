@@ -22,8 +22,8 @@ export const featured: Service[] = galleryImages.map((img, i) => ({
     "Energy work that aligns your body and energy systems through a blend of intuitive techniques.",
   ][i],
   image: img.src,
-  price: ["$50-125", "$50-120", "$125"][i],
-  duration: ["30 - 90 min", "30 - 60 min", "60 min"][i],
+  price: ["$50-185", "$50-120", "$125"][i],
+  duration: ["30 - 120 min", "30 - 60 min", "60 min"][i],
   onBookNow: [
     () => {'https://book.squareup.com/appointments/3kbzu7zt3ue90u/location/LYB1S1NE2CJN5/services'},
     () => {'https://book.squareup.com/appointments/3kbzu7zt3ue90u/location/LYB1S1NE2CJN5/services/XSFQWZZY7NBGVAB52KSI3VF'},

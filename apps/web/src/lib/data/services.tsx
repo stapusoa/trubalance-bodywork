@@ -16,8 +16,8 @@ export interface ServicePage {
 export const services: ServicePage[] = [
   {
     title: "Therapeutic Massage",
-    durations: [30, 60, 90],
-    prices: { 30: 50, 60: 95, 90: 125 },
+    durations: [30, 60, 90, 120],
+    prices: { 30: 50, 60: 95, 90: 140, 120: 185 },
     description: "Classic relaxation massage using flowing strokes to reduce stress and promote circulation.",
     icon: <Waves className="w-6 h-6" />,
     image: `${backendUrl}/static-images/imgServicesMassage.webp`,

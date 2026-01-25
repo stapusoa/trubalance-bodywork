@@ -12,7 +12,7 @@ import {
 } from '@/components/ui/dropdown-menu'
 import { services } from '@/lib/data/index'
 
-type DurationFilter = 'all' | '30' | '60' | '90'
+type DurationFilter = 'all' | '30' | '60' | '90' | '120'
 type ModalityFilter = 'all' | 'massage' | 'energy'
 type SortOption = 'popular' | 'price-low' | 'price-high' | 'duration-short' | 'duration-long'
 
@@ -111,6 +111,7 @@ export function Services({ onBookNow }: ServicesProps) {
                     <DropdownMenuRadioItem value="30">30 minutes</DropdownMenuRadioItem>
                     <DropdownMenuRadioItem value="60">60 minutes</DropdownMenuRadioItem>
                     <DropdownMenuRadioItem value="90">90 minutes</DropdownMenuRadioItem>
+                    <DropdownMenuRadioItem value="120">120 minutes</DropdownMenuRadioItem>
                   </DropdownMenuRadioGroup>
                 </DropdownMenuContent>
               </DropdownMenu>
