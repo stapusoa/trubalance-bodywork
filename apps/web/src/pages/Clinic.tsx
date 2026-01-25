@@ -15,13 +15,13 @@ import {
 } from 'lucide-react'
 
 const businessHours = [
-  { day: 'Monday', open: '10:00', close: '18:00' },
-  { day: 'Tuesday', open: '10:00', close: '17:00' },
+  { day: 'Monday', open: '10:30', close: '17:00' },
+  { day: 'Tuesday', open: null, close: null },
   { day: 'Wednesday', open: '13:00', close: '19:00' },
-  { day: 'Thursday', open: '11:00', close: '18:00' },
-  { day: 'Friday', open: '8:30', close: '15:30' },
-  { day: 'Saturday', open: '8:00', close: '15:30' },
-  { day: 'Sunday', open: null, close: null }
+  { day: 'Thursday', open: '11:30', close: '18:00' },
+  { day: 'Friday', open: null, close: null },
+  { day: 'Saturday', open: '8:00', close: '14:30' },
+  { day: 'Sunday', open: '9:00', close: '15:30' }
 ]
 
 const parkingDirections = [

@@ -93,14 +93,14 @@ export function Contact() {
                       <Phone className="w-5 h-5 text-purple-600" />
                       <div>
                         <div className="font-medium">Phone</div>
-                        <div className="text-muted-foreground">801-691-6657</div>
+                        <div className="text-muted-foreground">385-203-8749</div>
                       </div>
                     </div>
                     <div className="flex items-center space-x-3 mb-4">
                       <Mail className="w-5 h-5 text-purple-600" />
                       <div>
                         <div className="font-medium">Email</div>
-                        <div className="text-muted-foreground">brenden.heywood.lmt@gmail.com</div>
+                        <div className="text-muted-foreground">hello@trubalance.life</div>
                       </div>
                     </div>
                     <div className="flex items-center space-x-3">

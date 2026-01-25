@@ -83,13 +83,13 @@ export default function Info() {
                     <div>
                       <h5 className="mb-1">Hours</h5>
                       <div className="text-gray-600 space-y-1">
-                        <p>Monday: 10:00 AM - 6:00 PM</p>
-                        <p>Tuesday: 10:00 AM - 5:00 PM</p>
+                        <p>Monday: 10:30 AM - 5:00 PM</p>
+                        <p>Tuesday: Closed</p>
                         <p>Wednesday: 1:00 PM - 7:00 PM</p>
-                        <p>Thursday: 11:00 PM - 6:00 PM</p>
-                        <p>Friday: 8:30 PM - 3:30 PM</p>
-                        <p>Saturday: 8:00 AM - 3:30 PM</p>
-                        <p>Sunday: Closed</p>
+                        <p>Thursday: 11:30 AM - 6:00 PM</p>
+                        <p>Friday: Closed</p>
+                        <p>Saturday: 8:00 AM - 2:30 PM</p>
+                        <p>Sunday: 9:00 AM - 3:30 PM</p>
                       </div>
                     </div>
                   </div>

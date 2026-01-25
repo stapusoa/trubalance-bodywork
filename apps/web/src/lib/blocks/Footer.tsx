@@ -133,7 +133,7 @@ export function Footer({ onSectionChange }: FooterProps) {
               <div className="flex items-start space-x-3 group">
                 <Phone className="w-5 h-5 text-emerald-400 mt-0.5 group-hover:scale-110 transition-transform" />
                 <div>
-                  <a href="tel:+1801-691-6657" className="text-gray-300 text-base">801-691-6657</a>
+                  <a href="tel:+13852038749" className="text-gray-300 text-base">385-203-8749</a>
                   <p className="text-gray-400 text-sm">Call or text for appointments</p>
                 </div>
               </div>
